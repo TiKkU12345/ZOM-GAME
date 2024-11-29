@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Creepster");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+html, body {
+  margin: 0;
+  overflow: hidden;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://r4.wallpaperflare.com/wallpaper/158/282/379/green-green-skull-zombies-wallpaper-8f01508cdb7fb16f62a63ea83aa38397.jpg") no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0, 0.815);
+  color: white;
+  padding: 264px;
+  height: 418px;
+  text-align: center;
+  margin-top: 0%;
+  /* margin-bottom: 30%; */
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Creepster', cursive;
+  text-shadow: 3px 3px 10px green;
+}
+
+p {
+  font-family: 'Creepster', cursive;  
+  color: RED;
+  font-size: 40px;
+}
+
+button {
+  background-color: #007204;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px white;
+}
+
+/* button:hover {
+  background-color: #45a049;
+} */
+
+#game {
+  text-align: center;
+  font-size: 30px;
+  padding: 100px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+canvas {
+  background: radial-gradient(rgb(150, 200, 150), rgb(50, 100, 50));
+}
